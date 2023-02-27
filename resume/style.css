@@ -1,0 +1,172 @@
+/* Write CSS Here */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+}
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	background-color:white;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+h1{
+	font-size: medium;
+    padding-bottom: 5px;
+}
+h2{
+    font-size: medium;
+    color: black;
+}
+h3{
+    font-size: small;
+    text-align: end;
+}
+
+p{
+	color:black;
+}
+.full {
+	width: 50%;
+	max-width: 100%;
+	min-height: auto;
+	background-color:beige;
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.left {
+	position: initial;
+	background-color:darkcyan;
+	padding: 10px;
+
+}
+.right {
+	position: initial;
+	background-color:beige;
+	padding: 20px;
+
+}
+.contacts ,.skills,.Education,.Internships ,.Projects ,.Languages ,.Areas,.Personal ,.Hobbies ,.Profiles,.Events{
+	margin-bottom: 30px;
+    
+}
+.image{
+	align-items: center;
+	margin-bottom: 30px;
+}
+.sign{
+    padding-top: 50px;
+}
+/*
+.Education:hover {
+    color: white;
+    background-color: darkcyan;
+}
+.skills:hover {
+    color: white;
+    background-color: beige;
+}
+.Profiles:hover {
+    color: white;
+    background-color: beige;
+}
+.Projects:hover {
+    color: white;
+    background-color: darkcyan;
+}
+.Internships:hover {
+    color: white;
+    background-color: beige;
+}
+.Events:hover {
+    color: white;
+    background-color: darkcyan;
+}
+*/
+.h2 {
+	background-color: black;
+}
+.mail{
+    display: flex;
+}
+.phone{
+    display: flex;
+}
+.address{
+    display: flex;
+}
+
+.Education{
+    position: relative;
+    padding-left: 20px;
+}
+.Education::after{
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color:darkcyan;
+    top:0;
+    bottom: 0;
+    left: -5px;
+    margin-left: 0px;
+}
+.college{
+
+    margin: 0px;
+}
+/*.college::after{
+    content: '';
+    position:initial;
+    width: 0px;
+    height: 0px;
+    right: 0px;
+    background-color:darkcyan;
+    top:0px;
+    z-index: 1;
+}
+*/
+/*.content{
+    padding: 15px 15px 15px 17px;
+    background-color:lightseagreen;
+    border-radius: 4px;
+}
+*/
+
+.college::after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    right: 322px;
+    background-color: white;
+    border: 4px solid darkcyan;
+    top: 25px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+.hse::after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    right: 322px;
+    background-color: white;
+    border: 4px solid darkcyan;
+    top: 177px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.sslc::after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    right: 322px;
+    background-color: white;
+    border: 4px solid darkcyan;
+    top: 290px;
+    border-radius: 50%;
+    z-index: 1;
+}
